@@ -1,0 +1,52 @@
+[
+  {
+    "nome": "Manuelle",
+    "curso": "inf",
+    "idade": 16
+  },
+  {
+    "nome": "Carla",
+    "curso": "inf",
+    "idade": 16
+  },
+  {
+    "nome": "Duda",
+    "curso": "inf",
+    "idade": 16
+  },
+  {
+    "nome": "Rafa",
+    "curso": "inf",
+    "idade": 16
+  },
+  {
+    "nome": "Cauã",
+    "curso": "inf",
+    "idade": 16
+  },
+  {
+    "nome": "Sarah",
+    "curso": "inf",
+    "idade": 16
+  },
+  {
+    "nome": "Thalys",
+    "curso": "inf",
+    "idade": 16
+  },
+  {
+    "nome": "Alexandre",
+    "curso": "inf",
+    "idade": 16
+  },
+  {
+    "nome": "Aparecida",
+    "curso": "inf",
+    "idade": 16
+  },
+  {
+    "nome": "Ariel",
+    "curso": "inf",
+    "idade": 16
+  }
+]

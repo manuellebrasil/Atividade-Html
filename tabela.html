@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table id = "tabela" border="1">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Curso</th>
+                <th>Idade</th>
+            </tr>
+        </thead>
+
+        <tbody></tbody>
+    </table>
+
+    <script>
+       const turma = [
+  {
+    "nome": "Manuelle",
+    "curso": "inf",
+    "idade": 16
+  },
+  {
+    "nome": "Carla",
+    "curso": "inf",
+    "idade": 16
+  },
+  {
+    "nome": "Duda",
+    "curso": "inf",
+    "idade": 16
+  },
+  {
+    "nome": "Rafa",
+    "curso": "inf",
+    "idade": 16
+  },
+  {
+    "nome": "Cauã",
+    "curso": "inf",
+    "idade": 16
+  },
+  {
+    "nome": "Sarah",
+    "curso": "inf",
+    "idade": 16
+  },
+  {
+    "nome": "Thalys",
+    "curso": "inf",
+    "idade": 16
+  },
+  {
+    "nome": "Alexandre",
+    "curso": "inf",
+    "idade": 16
+  },
+  {
+    "nome": "Aparecida",
+    "curso": "inf",
+    "idade": 16
+  },
+  {
+    "nome": "Ariel",
+    "curso": "inf",
+    "idade": 16
+  }
+];
+
+const tbody = document.querySelector("tbody");
+
+   turma.forEach(aluno => {
+
+            const linha = `
+                <tr>
+                    <td>${aluno.nome}</td>
+                    <td>${aluno.curso}</td>
+                    <td>${aluno.idade}</td>
+                </tr>
+            `;
+
+            tbody.innerHTML += linha;
+        });
+    </script>
+</body>
+
+
+
+</html>

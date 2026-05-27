@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+</body>    
+    <script>
+        var nome = []
+        nome.push("Maria")
+        nome.push("João")
+        nome.push("Joana")
+        nome.push("Felipe")
+        nome.push("Carla")
+        nome.push("Manuelle")
+        nome.push("Victor")
+        nome.push("Mateo")
+        nome.push("Vitória")
+        nome.push("Duda")
+
+        nome.pop()
+        nome.splice(nome.indexOf("Vitória"), 1)
+        nome.splice(nome.indexOf("Joana"), 1)
+
+        nome.sort()
+
+        nome.map(function(item){
+            console.log(item)
+        })
+
+        var filtrar = nome.filter(function(item){
+                return item.startsWith("M")
+        })
+
+        console.log(filtrar)
+
+        var atendercondicao = nome.find (function(item){
+            return item.startsWith("M")
+        })
+ 
+        console.log(atendercondicao)
+
+        console.log(nome.length)
+
+        nome.splice(8,0,"Isis")
+
+        nome.splice(1,1,"Gabriel")
+
+        const turma = [
+            {nome : "Manuelle", curso :"inf", idade : 16},
+            {nome : "Carla", curso :"inf", idade : 16},
+            {nome : "Duda", curso :"inf", idade : 16},
+            {nome : "Rafa", curso :"inf", idade : 16},
+            {nome : "Cauã", curso :"inf", idade : 16},
+            {nome : "Sarah", curso :"inf", idade : 16},
+            {nome : "Thalys", curso :"inf", idade : 16},
+            {nome : "Alexandre", curso :"inf", idade : 16},
+            {nome : "Aparecida", curso :"inf", idade : 16},
+            {nome : "Ariel", curso :"inf", idade : 16}
+            
+        ]
+
+
+    
+
+
+        </script>
+</html>
